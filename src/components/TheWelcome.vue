@@ -5,6 +5,23 @@ import ToolingIcon from "./icons/IconTooling.vue";
 import EcosystemIcon from "./icons/IconEcosystem.vue";
 import CommunityIcon from "./icons/IconCommunity.vue";
 import SupportIcon from "./icons/IconSupport.vue";
+
+let numero: any;
+const casa = {
+  altura: 12,
+  tamaño: 34,
+};
+
+numero = 34;
+numero = "casa";
+
+const comer = (tema: any) => {
+  console.log(tema);
+  console.log(numero);
+  return tema;
+};
+
+comer(casa);
 </script>
 
 <template>
