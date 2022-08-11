@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "references": [
+    {
+      "path": "./tsconfig.config.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.vitest.json"
+    }
+  ]
+}

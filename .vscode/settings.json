@@ -1,0 +1,9 @@
+{
+  "vetur.format.enable": true,
+  "editor.formatOnSave": true,
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vetur.completion.autoImport": true,
+  "vetur.languageFeatures.updateImportOnFileMove": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
