@@ -5,6 +5,7 @@ import ToolingIcon from "./icons/IconTooling.vue";
 import EcosystemIcon from "./icons/IconEcosystem.vue";
 import CommunityIcon from "./icons/IconCommunity.vue";
 import SupportIcon from "./icons/IconSupport.vue";
+import { useCounterStore } from "@/stores/counter";
 
 let numero: any;
 const casa = {
@@ -14,6 +15,10 @@ const casa = {
 
 numero = 34;
 numero = "casa";
+
+const counter = useCounterStore();
+
+counter.counter;
 
 const comer = (tema: any) => {
   console.log(tema);

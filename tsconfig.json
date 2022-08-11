@@ -3,7 +3,10 @@
   "compilerOptions": {
     "allowUnreachableCode": false,
     "forceConsistentCasingInFileNames": true,
-    "strict": true
+    "strict": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "references": [
     {
