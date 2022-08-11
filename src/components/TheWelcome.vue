@@ -18,8 +18,6 @@ numero = "casa";
 
 const counter = useCounterStore();
 
-counter.counter;
-
 const comer = (tema: any) => {
   console.log(tema);
   console.log(numero);
