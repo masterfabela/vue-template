@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from "vue/types/v3-setup-helpers";
-
 defineProps<{
   msg: string;
 }>();
